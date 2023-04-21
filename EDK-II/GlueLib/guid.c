@@ -49,6 +49,9 @@ WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
 #include <Protocol/FormBrowser2.h>
 #include <Guid/MdeModuleHii.h>
 
+#include <Protocol/Tcp4.h>
+#include <Protocol/Tcp6.h>
+
 EFI_GUID gEfiPciIoProtocolGuid = EFI_PCI_IO_PROTOCOL_GUID;
 EFI_GUID gEfiDriverDiagnosticsProtocolGuid = EFI_DRIVER_DIAGNOSTICS_PROTOCOL_GUID;
 EFI_GUID gEfiDriverDiagnostics2ProtocolGuid = EFI_DRIVER_DIAGNOSTICS2_PROTOCOL_GUID;
@@ -102,3 +105,9 @@ EFI_GUID gEfiHiiConfigRoutingProtocolGuid = EFI_HII_CONFIG_ROUTING_PROTOCOL_GUID
 EFI_GUID gEfiFormBrowser2ProtocolGuid = EFI_FORM_BROWSER2_PROTOCOL_GUID;
 
 EFI_GUID gEdkiiIfrBitVarstoreGuid = EDKII_IFR_BIT_VARSTORE_GUID;
+
+EFI_GUID gEfiTcp4ServiceBindingProtocolGuid = EFI_TCP4_SERVICE_BINDING_PROTOCOL_GUID;
+EFI_GUID gEfiTcp4ProtocolGuid = EFI_TCP4_PROTOCOL_GUID;
+
+EFI_GUID gEfiTcp6ServiceBindingProtocolGuid = EFI_TCP6_SERVICE_BINDING_PROTOCOL_GUID;
+EFI_GUID gEfiTcp6ProtocolGuid = EFI_TCP6_PROTOCOL_GUID;
